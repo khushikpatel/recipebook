@@ -1,0 +1,117 @@
+.pancake-details-page {
+    padding: 20px;
+  }
+  
+  /* Image styling */
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .img-fluid:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Recipe info under the image */
+  .recipe-info {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .recipe-info p {
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Ingredient and Recipe steps styling */
+  h4 {
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  ul, ol {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  
+  ul li, ol li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  ul li:hover, ol li:hover {
+    background-color: #e2e6ea;
+  }
+  
+  /* Tips and Hints section styling */
+  .tips-hints-box {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .tips-hints-box h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tips-hints-box p {
+    margin: 0;
+  }
+  .info-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 15px;
+  }
+  
+  .tips-hints-box {
+    margin-top: 20px;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    background-color: #f1f1f1;
+  }
+  .website-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .website-buttons button {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .recipe-steps p {
+    margin-bottom: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .recipe-steps p:hover {
+    color: #28a745; /* Change color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .ingredients-list p {
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .ingredients-list p:hover {
+    color: #ff6347; /* Change color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+          

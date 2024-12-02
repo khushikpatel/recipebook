@@ -1,0 +1,45 @@
+.recipe-navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.recipe-navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items:center;
+}
+
+.recipe-navbar .nav-link {
+  color: #5f7a6e;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.recipe-navbar .nav-link i {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.recipe-navbar 
+.nav-link:hover {
+  text-decoration: none;
+  color: #38a169;
+}
+.navbar-container {
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  margin: 20px 0; /* Add some margin for spacing */
+}
+
+.nav {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+

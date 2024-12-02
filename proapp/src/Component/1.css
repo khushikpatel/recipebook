@@ -1,0 +1,77 @@
+.container {
+    padding: 20px;
+  }
+  
+  .art-theater-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: inherit;
+  }
+  
+  .art-theater-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .art-theater-card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  .art-theater-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .art-theater-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .art-theater-content {
+    padding: 15px;
+  }
+  
+  .art-theater-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .art-theater-date,
+  .art-theater-venue {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .art-theater-event-container {
+    padding: 20px;
+  }
+  
+  .art-theater-event-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .art-theater-event-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .art-theater-event-content {
+    padding: 15px;
+  }
+  
+  .art-theater-event-description {
+    font-size: 1rem;
+    color:inherit
+  }
+  

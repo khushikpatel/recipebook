@@ -1,0 +1,22 @@
+.navbar-custom {
+    background-color: #f8f9fa;
+  }
+  
+  .search-bar input {
+    width: 200px;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+  
+  .ml-2 {
+    margin-left: 10px;
+  }
+  
